@@ -5,6 +5,7 @@ namespace winFormsWheelSpin
 {
     public partial class Form1 : Form
     {
+        
         public int val;
         bool wheelIsMoved;
         float wheelTimes;
@@ -112,7 +113,7 @@ namespace winFormsWheelSpin
         {
             wheelIsMoved = true;
             Random rand = new Random();
-            wheelTimes = rand.Next(150, 180);    //random số vòng quay
+            wheelTimes = rand.Next(150, 180);
             //string winVal = comboBox1.Text.Remove(0);
             //int userVal= Int32.Parse(winVal);
             //int stopVal = 0;
@@ -121,12 +122,16 @@ namespace winFormsWheelSpin
             int win = Int32.Parse(value);
 
             wheelTimer.Start();
+            
 
 
         }
         private void playSimpleSound()
         {
-            SoundPlayer ticksound = new SoundPlayer("C:\\Users\\Makro\\Documents\\winFormsWheelSpin\\Resources\\Tick.wav");
+            string filename = "Tick.wav";
+
+            string soundloc = Path.GetFullPath(filename); 
+            SoundPlayer ticksound = new SoundPlayer(soundloc);
             ticksound.Play();
         }
 
@@ -134,5 +139,7 @@ namespace winFormsWheelSpin
         {
 
         }
+
+       
     }
 }

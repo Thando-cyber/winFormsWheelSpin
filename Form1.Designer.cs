@@ -82,7 +82,7 @@
             pictureBox2.SizeMode=PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex=3;
             pictureBox2.TabStop=false;
-            // 
+            
             // label2
             // 
             label2.AutoSize=true;

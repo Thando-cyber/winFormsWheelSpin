@@ -1,15 +1,15 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Makro\\Source\\Repos\\winFormsWheelSpin\\winFormsWheelSpin.csproj": {}
+    "C:\\Users\\Makro\\source\\repos\\winFormsWheelSpin\\winFormsWheelSpin.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Makro\\Source\\Repos\\winFormsWheelSpin\\winFormsWheelSpin.csproj": {
+    "C:\\Users\\Makro\\source\\repos\\winFormsWheelSpin\\winFormsWheelSpin.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Makro\\Source\\Repos\\winFormsWheelSpin\\winFormsWheelSpin.csproj",
+        "projectUniqueName": "C:\\Users\\Makro\\source\\repos\\winFormsWheelSpin\\winFormsWheelSpin.csproj",
         "projectName": "winFormsWheelSpin",
-        "projectPath": "C:\\Users\\Makro\\Source\\Repos\\winFormsWheelSpin\\winFormsWheelSpin.csproj",
+        "projectPath": "C:\\Users\\Makro\\source\\repos\\winFormsWheelSpin\\winFormsWheelSpin.csproj",
         "packagesPath": "C:\\Users\\Makro\\.nuget\\packages\\",
         "outputPath": "C:\\Users\\Makro\\Source\\Repos\\winFormsWheelSpin\\obj\\",
         "projectStyle": "PackageReference",
