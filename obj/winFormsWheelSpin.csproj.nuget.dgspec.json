@@ -11,7 +11,7 @@
         "projectName": "winFormsWheelSpin",
         "projectPath": "C:\\Users\\Makro\\source\\repos\\winFormsWheelSpin\\winFormsWheelSpin.csproj",
         "packagesPath": "C:\\Users\\Makro\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Makro\\Source\\Repos\\winFormsWheelSpin\\obj\\",
+        "outputPath": "C:\\Users\\Makro\\source\\repos\\winFormsWheelSpin\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

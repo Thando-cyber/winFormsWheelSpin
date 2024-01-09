@@ -9,10 +9,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Tick.wav" />
-  </ItemGroup>
-
-  <ItemGroup>
     <Content Include="Tick.wav">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

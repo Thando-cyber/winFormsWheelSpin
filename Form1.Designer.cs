@@ -82,7 +82,7 @@
             pictureBox2.SizeMode=PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex=3;
             pictureBox2.TabStop=false;
-            
+            // 
             // label2
             // 
             label2.AutoSize=true;
@@ -106,7 +106,7 @@
             // pictureBox3
             // 
             pictureBox3.Image=Properties.Resources.arrow;
-            pictureBox3.Location=new Point(246, 12);
+            pictureBox3.Location=new Point(241, 12);
             pictureBox3.Name="pictureBox3";
             pictureBox3.Size=new Size(40, 42);
             pictureBox3.SizeMode=PictureBoxSizeMode.Zoom;

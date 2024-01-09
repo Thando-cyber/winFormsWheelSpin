@@ -5,7 +5,7 @@ namespace winFormsWheelSpin
 {
     public partial class Form1 : Form
     {
-        
+
         public int val;
         bool wheelIsMoved;
         float wheelTimes;
@@ -77,14 +77,14 @@ namespace winFormsWheelSpin
 
             if (wheelIsMoved && wheelTimes > 0)
             {
-                spin.kat += wheelTimes / 10;
+                spin.kat += wheelTimes/20;
                 spin.kat = spin.kat % 360;
                 RotateImage(pictureBox2, spin.obrazek, spin.kat);
                 wheelTimes--;
                 playSimpleSound();
             }
             spin.stan = Convert.ToInt32(Math.Ceiling(spin.kat / 18));
-            //string value = Convert.ToString(spin.wartosciStanu[spin.stan]);
+
 
             if (spin.stan == 0)
             {
@@ -111,6 +111,7 @@ namespace winFormsWheelSpin
         }
         private void button1_Click(object sender, EventArgs e)
         {
+            int count = Convert.ToInt32(numericUpDown1.Value);
             wheelIsMoved = true;
             Random rand = new Random();
             wheelTimes = rand.Next(150, 180);
@@ -122,15 +123,14 @@ namespace winFormsWheelSpin
             int win = Int32.Parse(value);
 
             wheelTimer.Start();
-            
+
 
 
         }
         private void playSimpleSound()
         {
             string filename = "Tick.wav";
-
-            string soundloc = Path.GetFullPath(filename); 
+            string soundloc = Path.GetFullPath(filename);
             SoundPlayer ticksound = new SoundPlayer(soundloc);
             ticksound.Play();
         }
@@ -140,6 +140,6 @@ namespace winFormsWheelSpin
 
         }
 
-       
+
     }
 }
