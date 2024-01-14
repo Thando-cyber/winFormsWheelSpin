@@ -78,7 +78,7 @@
             pictureBox2.Image=Properties.Resources.Wheel_Test5;
             pictureBox2.Location=new Point(33, 51);
             pictureBox2.Name="pictureBox2";
-            pictureBox2.Size=new Size(366, 367);
+            pictureBox2.Size=new Size(374, 371);
             pictureBox2.SizeMode=PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex=3;
             pictureBox2.TabStop=false;
@@ -105,10 +105,12 @@
             // 
             // pictureBox3
             // 
+            pictureBox3.BackColor=Color.Transparent;
+            pictureBox3.BackgroundImageLayout=ImageLayout.None;
             pictureBox3.Image=Properties.Resources.arrow;
-            pictureBox3.Location=new Point(241, 12);
+            pictureBox3.Location=new Point(213, 0);
             pictureBox3.Name="pictureBox3";
-            pictureBox3.Size=new Size(40, 42);
+            pictureBox3.Size=new Size(28, 57);
             pictureBox3.SizeMode=PictureBoxSizeMode.Zoom;
             pictureBox3.TabIndex=6;
             pictureBox3.TabStop=false;
@@ -125,12 +127,15 @@
             // 
             // numericUpDown1
             // 
+            numericUpDown1.AccessibleName="Win Value";
             numericUpDown1.Increment=new decimal(new int[] { 10000, 0, 0, 0 });
             numericUpDown1.Location=new Point(639, 272);
             numericUpDown1.Maximum=new decimal(new int[] { 200000, 0, 0, 0 });
+            numericUpDown1.Minimum=new decimal(new int[] { 10000, 0, 0, 0 });
             numericUpDown1.Name="numericUpDown1";
             numericUpDown1.Size=new Size(120, 23);
             numericUpDown1.TabIndex=9;
+            numericUpDown1.TextAlign=HorizontalAlignment.Center;
             numericUpDown1.Value=new decimal(new int[] { 10000, 0, 0, 0 });
             numericUpDown1.ValueChanged+=numericUpDown1_ValueChanged;
             // 
