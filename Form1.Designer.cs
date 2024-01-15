@@ -175,6 +175,7 @@
         private Label label2;
         private Label label3;
         private PictureBox pictureBox3;
+
         private Label label4;
         private NumericUpDown numericUpDown1;
     }

@@ -15,7 +15,7 @@ namespace winFormsWheelSpin
         public Form1()
         {
 
-            InitializeComponent();
+            InitializeComponent();   
             wheelTimer = new Timer();
             wheelTimer.Interval = 136;
             wheelTimer.Tick += wheelTimer_Tick;
@@ -130,14 +130,14 @@ namespace winFormsWheelSpin
         private void playSimpleSound(bool sound)
         {
 
-            SoundPlayer ticksound = new SoundPlayer(Path.GetFullPath("Tick.wav"));
+            SoundPlayer ticking = new SoundPlayer(Path.GetFullPath("Tick.wav"));
             if (sound == true)
             {
-                ticksound.Play();
+                ticking.Play();
             }
             else if (sound== false)
             {
-                ticksound.Stop();
+                ticking.Stop();
             }
         }
         private void numericUpDown1_ValueChanged(object sender, EventArgs e)
